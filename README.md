@@ -30,3 +30,16 @@ There is a web-based UI in `webUI/`  directory, which is a self-contained Django
 - Open a terminal and  `cd [repo directory]/webUI/` 
 - Run `python manage.py runserver` . The web-based UI will be hosted at `http://127.0.0.1:8000/synthesizer/` .
 
+### Docker
+You can use `docker` to spin the data-synthesizer by running:
+
+```bash
+cd webUI
+docker-compose up
+```
+
+The web-based UI will be hosted at `http://127.0.0.1:8000/synthesizer/` .
+
+
+> Please note that on Windows you might have to change the Line endings from `CRLF` to `LF`.
+
