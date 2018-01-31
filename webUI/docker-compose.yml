@@ -5,6 +5,6 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/webUI
+      - .:/app
     environment:
     - DATABASE_URL=sqlite:///db.sqlite3
